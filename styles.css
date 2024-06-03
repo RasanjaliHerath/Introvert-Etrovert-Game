@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: #560658;
+    font-family: Arial, sans-serif;
+    border: 2px dashed;
+}
+
+p {
+    color: rgb(3, 40, 107);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    background-image: url("c:/Users/hp/Downloads/lets-play.webp");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(27, 28, 97);
+    color: rgb(219, 218, 243);
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #520555; /* Darker blueviolet color */
+}
+
+#result {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: darkblue;
+        
+}
